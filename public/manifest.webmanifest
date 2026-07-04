@@ -1,0 +1,10 @@
+{
+  "name": "WorkoutChallenge",
+  "short_name": "Workout",
+  "description": "A personal-first daily exercise set tracker.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f5ee",
+  "theme_color": "#1f5f52",
+  "icons": []
+}
