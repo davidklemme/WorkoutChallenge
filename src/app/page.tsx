@@ -3,7 +3,8 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { demoPlan, seededExercises, todaySession, totalBanked } from "@/lib/tracker/seed";
+import { totalBanked } from "@/lib/tracker/calculations";
+import { demoPlan, seededExercises, todaySession } from "@/lib/tracker/seed";
 
 const activeExercise = seededExercises.find((exercise) => exercise.id === todaySession.exerciseId) ?? seededExercises[0];
 const banked = totalBanked(todaySession);

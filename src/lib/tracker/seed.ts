@@ -56,7 +56,3 @@ export const todaySession: TrainingSession = {
     { id: "set-3", sessionId: "today", amount: 10, createdAt: "2026-07-04T13:15:00.000Z" },
   ],
 };
-
-export function totalBanked(session: TrainingSession) {
-  return session.sets.reduce((sum, set) => sum + set.amount, 0);
-}
